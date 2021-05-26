@@ -1,11 +1,7 @@
-x = input("How many measures are in the song (double the amount for repeated sections)")
-x = int(x)
-(y) = input("What is the tempo?")
-y = int(y)
-z = input("How many beats are in each bar?")
-z = int(z)
-e = input("How many bars have a rit?")
-e = int(e)
+x = int(input("How many measures are in the song (double the amount for repeated sections)"))
+y = int(input("What is the tempo?"))
+z = int(input("How many beats are in each bar?"))
+e = int(input("How many bars have a rit?"))
 x = e + x
 a = x*z
 b = y/60

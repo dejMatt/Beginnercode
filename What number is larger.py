@@ -1,14 +1,13 @@
-import random
-x = (random.randrange(1, 10000))
-y = (random.randrange(1, 10000))
-a = str(x)
-b = str(y)
-if b > a:
+from random import randrange
+x = (randrange(1, 10000))
+y = (randrange(1, 10000))
+
+if y > x:
     print ("The greater variable is y")
-    print ("The variable X is " +a)   
-    print ("The variable Y is "+b)
-if a > b:
+    print (f"The variable X is {x}")
+    print (f"The variable Y is {y}")
+if x > y:
     print ("The greater variable is x")
-    print ("The variable X is " +a)   
-    print ("The variable Y is "+b)
+    print (f"The variable X is {x}")
+    print (f"The variable Y is {y}")
 print ("The range of the randomizer is from 1 to 10000")
